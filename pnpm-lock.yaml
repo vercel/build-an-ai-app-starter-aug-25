@@ -35,6 +35,9 @@ dependencies:
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
+  dotenv-flow:
+    specifier: ^4.1.0
+    version: 4.1.0
   lucide-react:
     specifier: ^0.465.0
     version: 0.465.0(react@18.3.1)
@@ -1823,10 +1826,16 @@ packages:
       esutils: 2.0.3
     dev: true
 
+  /dotenv-flow@4.1.0:
+    resolution: {integrity: sha512-0cwP9jpQBQfyHwvE0cRhraZMkdV45TQedA8AAUZMsFzvmLcQyc1HPv+oX0OOYwLFjIlvgVepQ+WuQHbqDaHJZg==}
+    engines: {node: '>= 12.0.0'}
+    dependencies:
+      dotenv: 16.5.0
+    dev: false
+
   /dotenv@16.5.0:
     resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
-    dev: true
 
   /dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
