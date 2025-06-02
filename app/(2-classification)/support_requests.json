@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "text": "I'm having trouble logging into my account. Can you please assist?"
+  },
+  {
+    "id": 2,
+    "text": "The export feature isn't working correctly. Is there a known issue?"
+  },
+  {
+    "id": 3,
+    "text": "I need help integrating your API with our existing system."
+  },
+  {
+    "id": 4,
+    "text": "Can you provide more information about your enterprise pricing plans?"
+  },
+  {
+    "id": 5,
+    "text": "I'm having trouble cancelling my account. Please can you help?"
+  },
+  {
+    "id": 6,
+    "text": "The dashboard is not displaying real-time data. How can I fix this?"
+  },
+  {
+    "id": 7,
+    "text": "Do you offer technical support for self-hosted installations?"
+  }
+]

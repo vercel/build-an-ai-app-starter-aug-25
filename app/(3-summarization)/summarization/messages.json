@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "name": "Olivia Davis",
+      "initials": "OD",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "2 hours ago",
+    "content": "What's the update re the client feedback on the latest design?"
+  },
+  {
+    "id": 2,
+    "author": {
+      "name": "James Smith",
+      "initials": "JS",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "1 hour ago",
+    "content": "Client is happy with the design changes. We can proceed to the next phase."
+  },
+  {
+    "id": 3,
+    "author": {
+      "name": "Emma Thompson",
+      "initials": "ET",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "45 minutes ago",
+    "content": "Great to hear! Do we have an updated timeline for the next deliverables?"
+  },
+  {
+    "id": 4,
+    "author": {
+      "name": "Liam Johnson",
+      "initials": "LJ",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "40 minutes ago",
+    "content": "I'm working on that. Should have something by end of day."
+  },
+  {
+    "id": 5,
+    "author": {
+      "name": "Sophia Martinez",
+      "initials": "SM",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "30 minutes ago",
+    "content": "I'll need the finalized timeline to plan out the marketing strategy."
+  },
+  {
+    "id": 6,
+    "author": {
+      "name": "Olivia Davis",
+      "initials": "OD",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "25 minutes ago",
+    "content": "Liam, do you need any help with the timeline?"
+  },
+  {
+    "id": 7,
+    "author": {
+      "name": "Liam Johnson",
+      "initials": "LJ",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "20 minutes ago",
+    "content": "Thanks Olivia, but I think I've got it under control. I'll let you know if anything changes."
+  },
+  {
+    "id": 8,
+    "author": {
+      "name": "Emma Thompson",
+      "initials": "ET",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "15 minutes ago",
+    "content": "Quick question: has anyone reached out to the vendor about the new software licenses?"
+  },
+  {
+    "id": 9,
+    "author": {
+      "name": "James Smith",
+      "initials": "JS",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "10 minutes ago",
+    "content": "I can handle that. I'll send them an email today."
+  },
+  {
+    "id": 10,
+    "author": {
+      "name": "Sophia Martinez",
+      "initials": "SM",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "8 minutes ago",
+    "content": "Thanks, James. Let us know what they say."
+  },
+  {
+    "id": 11,
+    "author": {
+      "name": "Olivia Davis",
+      "initials": "OD",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "5 minutes ago",
+    "content": "Just a reminder: we have the client call tomorrow at 3 PM. Please be prepared with your updates."
+  },
+  {
+    "id": 12,
+    "author": {
+      "name": "Liam Johnson",
+      "initials": "LJ",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "3 minutes ago",
+    "content": "Got it. I'll make sure to have the timeline ready by then."
+  },
+  {
+    "id": 13,
+    "author": {
+      "name": "Emma Thompson",
+      "initials": "ET",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "1 minute ago",
+    "content": "I'll prepare the slides for the presentation. Anything specific we need to include?"
+  },
+  {
+    "id": 14,
+    "author": {
+      "name": "James Smith",
+      "initials": "JS",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+        "content": "Emma, make sure to include the latest design changes and the feedback summary from the client."
+  },
+  {
+    "id": 15,
+    "author": {
+      "name": "Sophia Martinez",
+      "initials": "SM",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+    "content": "Also, add a slide on the marketing strategy timeline once we have it finalized."
+  },
+  {
+    "id": 16,
+    "author": {
+      "name": "Olivia Davis",
+      "initials": "OD",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+    "content": "Good point, Sophia. Emma, let's also include a brief on the expected deliverables for the next phase."
+  },
+  {
+    "id": 17,
+    "author": {
+      "name": "Emma Thompson",
+      "initials": "ET",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+    "content": "Got it. I'll work on that and share a draft by EOD."
+  },
+  {
+    "id": 18,
+    "author": {
+      "name": "Liam Johnson",
+      "initials": "LJ",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+    "content": "Sounds good. I'll review the draft once it's ready."
+  },
+  {
+    "id": 19,
+    "author": {
+      "name": "James Smith",
+      "initials": "JS",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+    "content": "I'll make sure the client has the latest documents before the call."
+  },
+  {
+    "id": 20,
+    "author": {
+      "name": "Olivia Davis",
+      "initials": "OD",
+      "avatarSrc": "/placeholder-user.jpg"
+    },
+    "timestamp": "just now",
+    "content": "Thanks, everyone. Let's aim to have everything ready by tomorrow morning so we have time for a final review."
+  }
+]

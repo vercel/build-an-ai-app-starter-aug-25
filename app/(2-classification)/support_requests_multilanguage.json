@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "text": "Ich habe Probleme, mich in meinen Account einzuloggen. Können Sie mir bitte helfen?"
+  },
+  {
+    "id": 2,
+    "text": "La función de exportación no funciona correctamente. ¿Hay algún problema conocido?"
+  },
+  {
+    "id": 3,
+    "text": "我需要帮助将您的API集成到我们现有的系统中。"
+  },
+  {
+    "id": 4,
+    "text": "企業向け料金プランについて、詳しい情報を提供していただけますか？"
+  },
+  {
+    "id": 5,
+    "text": "Ho difficoltà a cancellare il mio account. Per favore, puoi aiutarmi?"
+  },
+  {
+    "id": 6,
+    "text": "Das Dashboard zeigt keine Echtzeit-Daten an. Wie kann ich dieses Problem lösen?"
+  },
+  {
+    "id": 7,
+    "text": "¿Ofrecen soporte técnico para instalaciones autohospedadas?"
+  }
+]
