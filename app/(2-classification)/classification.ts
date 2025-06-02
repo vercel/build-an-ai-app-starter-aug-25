@@ -1,4 +1,6 @@
-import "dotenv/config";
+import dotenvFlow from "dotenv-flow";
+dotenvFlow.config();
+
 import supportRequests from "./support_requests.json";
 
 async function main() {
