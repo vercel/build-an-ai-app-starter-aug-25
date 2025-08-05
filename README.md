@@ -20,7 +20,7 @@ This 12-hour course is divided into three sections:
 - React familiarity
 - Node.js v20 or later (LTS recommended)
 - pnpm package manager
-- OpenAI account with API key
+- Vercel account (free)
 
 ## Getting Started
 
@@ -37,59 +37,97 @@ cd build-an-ai-app-starter-aug-25
 pnpm install
 ```
 
-### 3. Set Up Environment Variables
+### 3. Set Up Vercel AI Gateway
 
-For local development with OpenAI:
-```bash
-cp .env.example .env.local
-```
+This project uses [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) for unified AI model access with built-in reliability, monitoring, and load balancing.
 
-Then add your OpenAI API key to `.env.local`:
-```
-OPENAI_API_KEY=your-api-key-here
-```
+#### Link Your Project to Vercel
 
-For Vercel AI Gateway (recommended for production):
 ```bash
 pnpm install -g vercel
-vc deploy
-vc env pull
+vercel link
 ```
+
+#### Deploy and Pull Environment Variables
+
+```bash
+vercel deploy
+vercel env pull
+```
+
+This will create a `.env.local` file with your `VERCEL_OIDC_TOKEN` which is valid for 12 hours.
+
+#### Configure AI Provider Keys
+
+1. Go to your [Vercel Dashboard](https://vercel.com/dashboard)
+2. Navigate to AI Gateway → Integrations
+3. Add your AI provider API keys (e.g., OpenAI, Anthropic)
+4. Keys are securely stored and scoped to your Vercel team
 
 ### 4. Run the Development Server
 
 ```bash
+# Use Vercel CLI for automatic OIDC token refresh
+vercel dev
+
+# Or use standard Next.js dev (manual token refresh required)
 pnpm dev
-# or with Vercel CLI for automatic OIDC token refresh
-vc dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to see the tutorial navigation page.
 
 ## Available Lessons
 
-This starter includes code for the following lessons:
+This starter includes code for all course lessons:
 
-- **Lesson 3: Summarization** - Learn to summarize text content using AI
-- **Lesson 4: Extraction** - Extract structured data from unstructured text
-- **Lesson 5: Chatbot** - Build an interactive conversational interface
+### Command-Line Lessons
+Run these lessons using the provided npm scripts:
+
+- **Lesson 1: Extraction** - Extract structured data from text
+  ```bash
+  pnpm run extraction
+  ```
+
+- **Lesson 2: Classification** - Classify support requests
+  ```bash
+  pnpm run classification
+  ```
+
+### Interactive Lessons
+Access these through the web interface at [http://localhost:3000](http://localhost:3000):
+
+- **Lesson 3: Summarization** - Summarize message conversations
+- **Lesson 4: Extraction (Advanced)** - Extract calendar appointments from emails
+- **Lesson 5: Chatbot** - Build an interactive AI chatbot
 
 ## Project Structure
 
 ```
 ├── app/
-│   ├── (3-summarization)/     # Summarization lesson
-│   ├── (4-extraction)/        # Data extraction lesson
-│   ├── (5-chatbot)/          # Chatbot lesson
+│   ├── (1-extraction)/        # CLI extraction lesson
+│   ├── (2-classification)/    # CLI classification lesson
+│   ├── (3-summarization)/     # Web summarization lesson
+│   ├── (4-extraction)/        # Web extraction lesson
+│   ├── (5-chatbot)/          # Web chatbot lesson
 │   └── page.tsx              # Navigation homepage
 ├── components/ui/            # Reusable UI components
 └── lib/                      # Utility functions
 ```
 
+## About Vercel AI Gateway
+
+Vercel AI Gateway provides:
+- **Unified API** - Switch between AI providers without code changes
+- **High Reliability** - Automatic request retries and failover
+- **Monitoring** - Track usage and spending across providers
+- **Security** - Securely manage API keys at the team level
+- **Load Balancing** - Distribute requests across multiple providers
+
 ## Technologies Used
 
 - [Next.js 15](https://nextjs.org) - React framework
 - [Vercel AI SDK](https://sdk.vercel.ai) - AI integration library
+- [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) - AI proxy service
 - [Tailwind CSS v4](https://tailwindcss.com) - Styling
 - [shadcn/ui](https://ui.shadcn.com) - UI components
 - [TypeScript](https://www.typescriptlang.org) - Type safety
@@ -98,6 +136,7 @@ This starter includes code for the following lessons:
 
 - [Full Tutorial](https://vercel.com/academy/ai-sdk) - Complete the entire AI SDK course
 - [AI SDK Documentation](https://sdk.vercel.ai/docs) - Detailed SDK documentation
+- [Vercel AI Gateway Docs](https://vercel.com/docs/ai-gateway) - Gateway documentation
 - [Vercel AI Playground](https://sdk.vercel.ai/playground) - Experiment with AI models
 
 ## Deploy on Vercel
