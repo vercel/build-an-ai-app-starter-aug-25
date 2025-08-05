@@ -59,6 +59,9 @@ importers:
       tailwind-merge:
         specifier: ^2.5.5
         version: 2.6.0
+      tiktoken:
+        specifier: ^1.0.21
+        version: 1.0.21
       zod:
         specifier: ^3.23.8
         version: 3.25.76
@@ -2112,6 +2115,9 @@ packages:
   throttleit@2.1.0:
     resolution: {integrity: sha512-nt6AMGKW1p/70DF/hGBdJB57B8Tspmbp5gfJ8ilhLnt7kkr2ye7hzD6NVG8GGErk2HWF34igrL2CXmNIkzKqKw==}
     engines: {node: '>=18'}
+
+  tiktoken@1.0.21:
+    resolution: {integrity: sha512-/kqtlepLMptX0OgbYD9aMYbM7EFrMZCL7EoHM8Psmg2FuhXoo/bH64KqOiZGGwa6oS9TPdSEDKBnV2LuB8+5vQ==}
 
   tinyglobby@0.2.14:
     resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
@@ -4314,6 +4320,8 @@ snapshots:
       yallist: 5.0.0
 
   throttleit@2.1.0: {}
+
+  tiktoken@1.0.21: {}
 
   tinyglobby@0.2.14:
     dependencies:
